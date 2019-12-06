@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+{:external: target="_blank" .external} 
+
+{: .toc subcollection="api-gateway" category="devops,integration" service="API Gateway" audience="service" href="/docs/services/api-gateway?topic=api-gateway-getting-started" path="services/api-gateway"}
+API Gateway
+
+    {: .navgroup id="learn"}
+    getting-started.md
+	whatis_apigw.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"} 
+	create_api.md
+	test_api.md
+	secure_api.md
+	share_api.md
+	manage_api.md
+	custom_endpoint.md
+	migrate_api.md
+	consume_api.md
+    {: .navgroup-end}
+	
+    {: .navgroup id="reference"}
+    iam.md
+	ha_disrecover.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [Getting help](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} 
+    {: .navgroup-end}
