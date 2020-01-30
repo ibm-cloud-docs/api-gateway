@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 {:external: target="_blank" .external} 
 
-{: .toc subcollection="api-gateway" category="devops,integration" service="API Gateway" audience="service" href="/docs/services/api-gateway?topic=api-gateway-getting-started" path="services/api-gateway"}
+{: .toc subcollection="api-gateway" category="devops,integration" service="API Gateway" audience="service" href="/docs/api-gateway?topic=api-gateway-getting-started" path="api-gateway"}
 API Gateway
 
     {: .navgroup id="learn"}
@@ -23,6 +23,7 @@ API Gateway
 	
     {: .navgroup id="reference"}
     iam.md
+	at-events.md
 	ha_disrecover.md
     {: .navgroup-end}
 
