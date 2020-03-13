@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-01-22"
 
-keywords: IBM, activity tracker, LogDNA, event, security, API Gateway
+keywords: IBM, activity tracker, LogDNA, event, security, API Gateway, audit logs, viewing events
 
 subcollection: api-gateway
 
@@ -18,7 +18,7 @@ subcollection: api-gateway
 {:important: .important}
 {:note: .note}
 
-# Activity Tracker events
+# Auditing events for API Gateway
 {: #at_events}
 
 As a security officer, auditor, or manager, you can use the Activity Tracker service to track how users and applications interact with the {{site.data.keyword.apigw_full}} service in {{site.data.keyword.cloud}}.
@@ -35,15 +35,15 @@ Table 1 describes the actions that the {{site.data.keyword.apigw_short}} service
 | Action                          | Description     | 
 |---------------------------------|-----------------|
 | api-gateway.api.create          | An API is created. | 
-| api-gateway.api.update            | An API is updated. | 
-| api-gateway.api.delete         | An API is deleted. | 
+| api-gateway.api.update          | An API is updated. | 
+| api-gateway.api.delete          | An API is deleted. | 
 | api-gateway.api.enable          | An API is enabled. | 
 | api-gateway.api.disable         | An API is disabled. | 
 | api-gateway.subscription.create | A subscription is created against an API. | 
 | api-gateway.subscription.update | A subscription is modified in some manner (for example, changing the name or resetting the secret). | 
 | api-gateway.subscription.delete | A subscription is removed from an API. | 
 | api-gateway.domain.bind         | A custom domain is bound to an instance. |
-| api-gateway.domain.update      | A custom domain that is already bound to an instance is updated (for example, a new certificate is applied). | 
+| api-gateway.domain.update       | A custom domain that is already bound to an instance is updated (for example, a new certificate is applied). | 
 | api-gateway.domain.unbind       | A custom domain is unbound/removed from an instance. | 
 {: caption="Table 1. Actions that generate events" caption-side="top"}
 

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-30"
+  years: 2019, 2020
+lastupdated: "2020-03-13"
 
-keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, authentication, IAM, access management, service ID, API key, user roles, user actions, token
+keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, authentication, IAM, access management, service ID, API key, user roles, user actions, token, permissions, identity and access management, actions, assigning access
 
 subcollection: api-gateway
 
@@ -19,11 +19,14 @@ subcollection: api-gateway
 {:tip: .tip}
 {:download: .download}
 
-# Identity & Access Management
+# Managing access for API Gateway
 {: #iam}
 
 {{site.data.keyword.apigw_full}} uses {{site.data.keyword.cloud_notm}} Identity & Access Management (IAM) to securely authenticate users and control access to all cloud resources on the {{site.data.keyword.cloud_notm}} platform.
 {: shortdesc}
+
+Access to {{site.data.keyword.apigw_full}} service instances for users in your account is controlled by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.apigw_short}} service in your account must be assigned an access policy with an IAM role defined. The policy determines what actions a user can perform within the context of the service or instance that you select. The allowable actions are customized and defined by the {{site.data.keyword.cloud_notm}} service as operations that are allowed to be performed on the service. The actions are then mapped to IAM user roles.
+
 
 ## Using IAM for authentication
 {: #authentication-iam}
@@ -46,8 +49,6 @@ Authorization in {{site.data.keyword.apigw_short}} strictly follows the {{site.d
 
 ### Identity and Access Management roles and actions
 {: #roles_actions_iam}
-
-Access to {{site.data.keyword.apigw_short}} service instances for users in your account is controlled by {{site.data.keyword.cloud_notm}} IAM. Every user in your account must be assigned an access policy with an IAM role defined. The policy determines what actions a user can perform within the context of the service or instance that you select. The allowable actions are customized and defined by the {{site.data.keyword.cloud_notm}} service as operations that are allowed to be performed on the service. The actions are then mapped to IAM user roles.
 
 Policies enable access to be granted at different levels. Some of the options include the following: 
 

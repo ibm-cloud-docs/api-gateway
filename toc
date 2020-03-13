@@ -19,11 +19,15 @@ API Gateway
 	custom_endpoint.md
 	migrate_api.md
 	consume_api.md
+	
+    {: .topicgroup}
+    Enhancing security for API Gateway
+        iam.md
+	    at-events.md
     {: .navgroup-end}
 	
     {: .navgroup id="reference"}
-    iam.md
-	at-events.md
+	metrics.md
 	ha_disrecover.md
     {: .navgroup-end}
 
