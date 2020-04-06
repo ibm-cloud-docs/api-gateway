@@ -39,7 +39,7 @@ either within the current Cloud Foundry organization, or outside of the Cloud Fo
 
 Each API can support up to five API keys for internal users, and another five API keys for external users.  
 
-### Share an API internally
+## Share an API internally
 {: #internal-share_api}
 
 Share an API with users who can access your {{site.data.keyword.cloud_notm}} organization or your Cloud Foundry organization:
@@ -96,7 +96,7 @@ You can create up to five API keys for each API.
 
 	b. Click **Create** to generate and save the API key (and secret).
 
-### Share an externally
+## Share an externally
 {: #external-share_api}
 
 Share an API with users who cannot access your {{site.data.keyword.cloud_notm}} organization or your Cloud Foundry organization:

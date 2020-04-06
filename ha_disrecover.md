@@ -22,7 +22,7 @@ subcollection: api-gateway
 {: #ha_disrec}
 
 {{site.data.keyword.cloud_notm}} provides high-availability and disaster-recovery solutions to ensure that your APIs remain accessible.
-
+{: shortdesc}
 
 ## Deploying highly available APIs
 {: #avail_ha_disrec}

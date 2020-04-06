@@ -455,7 +455,7 @@ If you choose not to secure the API now, you can edit the definition and add sec
    When you expose the API, the endpoint displays in the **Route** field. For information on how you can manage the API, see the other topics in this documentation set.
 
 
-## Create an API with {{site.data.keyword.appconserviceshort}}
+## Create an API with App Connect
 {: #appc-create_api}
 
 Create an API flow in {{site.data.keyword.appconserviceshort}} and then manage it with the Legacy {{site.data.keyword.apigw_short}}. 

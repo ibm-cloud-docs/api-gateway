@@ -84,11 +84,7 @@ Setting an API online exposes its endpoint so that it can be invoked by applicat
 
 5. Click **Save** to update the API.
 
-
-## Importing and exporting API definitions
-{: #import_export-manage_api}
-
-### Export an API
+## Exporting an API
 {: #export-manage_api}
 
 Export an OpenAPI definition to a YAML or JSON file. You can export the definition of any managed API from the gateway.
@@ -111,7 +107,7 @@ The API definition is exported to the select file format (`.yaml` or `.json`) an
 
 The exported definition retains all of the settings from the original API.
 
-### Import an API definition
+## Importing an API definition
 {: #import-manage_api}
 
 You can import an OpenAPI definition file using the same process you use for creating APIs, but making sure to select the **API Definition** > **Import YAML or JSON** option. 
