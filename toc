@@ -27,6 +27,7 @@ API Gateway
     {: .navgroup-end}
 	
     {: .navgroup id="reference"}
+	responsible.md
 	ha_disrecover.md
     {: .navgroup-end}
 
