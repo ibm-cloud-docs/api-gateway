@@ -85,10 +85,7 @@ Table 1 summarizes the feature differences between {{site.data.keyword.apigw_sho
 | API endpoint | Endpoints are allowed in multiple regions and can be customized. | A single endpoint is allowed, and can be customized. |
 | APIs created in | IAM resource groups | Cloud Foundry spaces |
 | APIs can be shared | Up to five API keys for distribution to consumers within {{site.data.keyword.cloud_notm}}, and five more API keys for external consumers.  | Up to five API keys for distribution to consumers within {{site.data.keyword.cloud_notm}}, and five more API keys for external consumers. |
-| Number of calls | 1 million calls per month; additional calls might be throttled. | Unlimited. |
+| Number of calls | 1 million calls per month. After your block of free calls is exhausted, API traffic might be throttled on an as-needed basis. Traffic restrictions will be based on overall system usage and performance. Until paid plans become available for API Gateway, throttling will implemented only as needed to prevent performance degradation| Unlimited. |
 | Provisioning | Provision your single service instance before use or when you create your first API. |Always available. You do not need to provision your own service. |
 | Expiration | Service instance expires after 30 days of inactivity. | No expiration |
-{: row-headers} 			
-{: class="comparison-table"} 			
 {: caption="Table 1. Differences between {{site.data.keyword.apigw_short}} service and Legacy {{site.data.keyword.apigw_short}}" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify gateway features. The column headers identify the type of gateway. To determine whether and how a a feature is supported in a particular gateway, navigate to the row that describes the feature and the column that describes the gateway."}
