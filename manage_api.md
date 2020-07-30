@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, gateway, summary, status, definition, online, offline, expose, hide, delete, edit, import, export
 
@@ -17,6 +17,7 @@ subcollection: api-gateway
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:note: .note}
+{:tip: .tip}
 
 # Managing an API
 {: #manage_api}
@@ -34,13 +35,16 @@ APIs are managed by a particular gateway, depending on how they are secured:
    
   - Cloud Foundry space: Legacy {{site.data.keyword.apigw_short}}
 
-To manage an API, first start the gateway service that manages it, and then click **Managed APIs** in the navigation list. Review the following sections for information on how you can manage your APIs.
+To manage an API, start the gateway that manages it and then click **Managed APIs** in the navigation list. Review the following sections for information on how you can manage your APIs. 
+
+The default domain for managed APIs in your account is generated the first time you create a managed API. If you want to ensure that all subsequent managed APIs use the same default domain, keep at least one managed API at all times so that the default domain can be inherited.
+{: tip}
 
 
 ## Reviewing API details
 {: #details-manage_api}
 
-Use the "API Summary" page to view API definition details such as its endpoint URL (the **Route**), security settings, and sharing status.
+Use the "API Summary" page to view API definition details such as its endpoint URL (the **Route**), security settings, and sharing status. 
 
 In addition, you can review analytics information and logging records for the past hour.
 
@@ -51,6 +55,17 @@ You can also set the API's status to Online or Offline.
 2. In the navigation list, click **Managed APIs**.
 
 3. On the "Managed APIs" page, click the API that you want to work with.
+
+### API region
+{: #region-manage_api}
+
+On the "API Summary" page, the API route includes the "region", which represents the geographic area where your APIs reside. For example, if the route displays as:
+
+```
+https://25328c20.us-south.apigw.cloud.ibm.com/findbranch
+```
+
+Then the region is "us-south". 
 
 
 ## Setting an API online or offline
@@ -78,11 +93,12 @@ Setting an API online exposes its endpoint so that it can be invoked by applicat
 
 3. On the "Managed APIs" page, click the API that you want to edit.
 
-4. In the navigation list, click **Definition**.
+4. In the navigation list, click **Define and secure**.
 
 4. On the API's definition page, make your changes.
 
 5. Click **Save** to update the API.
+
 
 ## Exporting an API
 {: #export-manage_api}
@@ -95,7 +111,7 @@ Export an OpenAPI definition to a YAML or JSON file. You can export the definiti
 
 3. On the "Managed APIs" page, click the API that you want to export.
 
-4. In the navigation list, click **Definition**.
+4. In the navigation list, click **Define and secure**.
 
 5. On the API's definition page, look in the "API Info" section and click  **API Definition**.
 
@@ -106,6 +122,7 @@ The API definition is exported to the select file format (`.yaml` or `.json`) an
 ![Export confirmation message](images/msg_export_conf.png "Export confirmation message")
 
 The exported definition retains all of the settings from the original API.
+
 
 ## Importing an API definition
 {: #import-manage_api}
