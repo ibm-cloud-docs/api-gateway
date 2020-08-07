@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-03-13"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, authentication, IAM, access management, service ID, API key, user roles, user actions, token, permissions, identity and access management, actions, assigning access
 

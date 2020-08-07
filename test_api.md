@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, share, gateway, develop, create, test, explore, try, invoke, call, key, secret, definition
 
@@ -42,7 +42,7 @@ Then, use {{site.data.keyword.apigw_short}} Test and Monitor to make an external
 
 2. On the "Managed APIs" page, click the name of the API that you want to explore.
 
-3. In the navigation list, click **API Explorer**. 
+3. In the navigation list, click **Review and test**. 
 
    The API Explorer opens in a new browser tab.
 

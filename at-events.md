@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-01-22"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM, activity tracker, LogDNA, event, security, API Gateway, audit logs, viewing events
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, share, gateway, develop, create, proxy, Cloud Foundry, App Connect, Cloud Functions, resource group, space, organization, IAM, whatis
 

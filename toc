@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 {:external: target="_blank" .external} 
 
-{: .toc subcollection="api-gateway" category="dev_ops" service="API Gateway" audience="service" href="/docs/api-gateway?topic=api-gateway-getting-started" path="api-gateway"}
+{: .toc subcollection="api-gateway" category="dev_ops" service="API Gateway" audience="service" console-page="/apis/api-gateway"  href="/docs/api-gateway?topic=api-gateway-getting-started" path="api-gateway"}
 API Gateway
 
     {: .navgroup id="learn"}
@@ -27,10 +27,11 @@ API Gateway
     {: .navgroup-end}
 	
     {: .navgroup id="reference"}
-	responsible.md
-	ha_disrecover.md
+	responsibilities.md
+	ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     [Getting help](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} 
+	[Accessibility features in IBM Cloud](/docs/overview/accessibility?topic=overview-accessibility-platform#accessibility-features-for-ibm-cloud)
     {: .navgroup-end}

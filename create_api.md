@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, gateway, develop, create, proxy, Cloud Foundry, App Connect, Cloud Functions
 
@@ -352,7 +352,7 @@ Add an API to a Cloud Foundry app and then manage it with the Legacy {{site.data
 If you already added APIs to your Cloud Foundry app, you can locate them on the "Managed APIs" page in the Legacy {{site.data.keyword.apigw_short}} and work with them there.
 {: tip}
 
-![Arrow icon](images/icon_prereqs_arrow.png "Arrow icon") Before you begin: Create an application in the Cloud Foundry "Public" environment (Cloud Foundry Enterprise Environment is not supported by the API gateway).
+![Arrow icon](images/icon_prereqs_arrow.png "Arrow icon") Before you begin: Create an application in the Cloud Foundry "Public" environment.
 
 1. Start your Cloud Foundry service and open your app.
 

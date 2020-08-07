@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, share, gateway, key, secret, authenticate, authorize, OAuth, CORS, Cross Origin Resource Sharing, domain, response
 
@@ -38,13 +38,14 @@ To edit the API definition:
 
 3. On the "Managed APIs" page, click the API that you want to edit.
 
-4. In the navigation list, click **Definition**.
+4. In the navigation list, click **Define and secure**.
 
 4. On the API's definition page, make your changes.
 
 5. Click **Save** to update the API.
 
 You can add or change the following settings to secure your API.
+
 
 ## Application authentication
 {: #keys-secure_api}
@@ -67,6 +68,7 @@ Complete the following settings to enable application authentication with keys:
 
 After you enable the use of API keys and secrets, you can create them for other users when you share the API. For more information about sharing APIs, see [Sharing an API](/docs/api-gateway?topic=api-gateway-share_api).
 
+
 ## OAuth user authentication
 {: #oauth-secure_api}
 
@@ -84,6 +86,7 @@ Use the "OAuth user authentication" section of the API definition to require the
   
     If you already have an {{site.data.keyword.appid_full_notm}} service instance but are not sure of its settings, click ![Edit App ID service](images/icon_edit_appid.png "Edit App ID service") to open the service information in a new browser tab.
     {: tip}
+
 
 ## Cross-Origin Resource Sharing
 {: #cors-secure_api}

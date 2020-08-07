@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, share, gateway, Cloud Foundry, App Connect, Cloud Functions, consume, key, explore
 
@@ -88,10 +88,10 @@ To create the API key, complete the following steps:
 ## Testing a shared API
 {: #explore-consume_api}
 
-You can explore and try an API that was shared with you. In the navigation list, expand **API Gateway** and click **API Explorer**.
+You can explore and try an API that was shared with you. In the navigation list, expand **API Gateway** and click **Review and test**.
 
-The API Explorer shows the details of the OpenAPI definition; for example, the response schema and the available operations. You can download the OpenAPI definition to reuse it.
+The Review and test page shows the details of the OpenAPI definition; for example, the response schema and the available operations. You can download the OpenAPI definition to reuse it.
 
 To test the API, select a programming language to use for the API call. The examples detail the request and response for the selected language so you can see how the API works. When you're ready to invoke the API, click **Try it**.
 
-For more information on testing an API in the API Explorer, see [Viewing and testing an API](/docs/api-gateway?topic=api-gateway-test_api). 
+For more information on testing an API, see [Viewing and testing an API](/docs/api-gateway?topic=api-gateway-test_api). 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, gateway, migrate, upgrade, space, resource group, import, export
 
@@ -42,6 +42,7 @@ With the new {{site.data.keyword.apigw_full}} service, APIs are created in resou
 
 For more information about the {{site.data.keyword.apigw_full}} transition from Cloud Foundry spaces to IAM resource groups, see [What is IBM Cloud Identity and Access Management](/docs/iam?topic=iam-iamoverview){: external}.
 
+
 ## How to migrate APIs
 {: #howto-migrate_api}
 
@@ -58,7 +59,7 @@ Export an OpenAPI definition from the Legacy {{site.data.keyword.apigw_short}} t
 
 3. On the "Managed APIs" page, click the API that you want to export.
 
-4. In the navigation list, click **Definition**.
+4. In the navigation list, click **Define and secure**.
 
 5. On the API's definition page, look in the "API Info" section and click  **API Definition**.
 

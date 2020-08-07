@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-30"
+  years: 2018, 2020
+lastupdated: "2020-08-07"
 
 keywords: IBM Cloud, API Gateway, API Gateway Lite, API management, API, manage, share, gateway, key, secret, internal, external, customer, developer
 
@@ -39,6 +39,7 @@ either within the current Cloud Foundry organization, or outside of the Cloud Fo
 
 Each API can support up to five API keys for internal users, and another five API keys for external users.  
 
+
 ## Share an API internally
 {: #internal-share_api}
 
@@ -56,7 +57,7 @@ You can create up to five API keys for each API.
 
 2. On the "Managed APIs" page, click the name of the API that you want to share.
 
-3. In the navigation list, click **Sharing and Keys**. 
+3. In the navigation list, click **Manage sharing and keys**. 
 
 4. On the "Sharing and Keys" page, verify that the API is online so that it can be shared.
 
@@ -96,7 +97,8 @@ You can create up to five API keys for each API.
 
 	b. Click **Create** to generate and save the API key (and secret).
 
-## Share an externally
+
+## Share an API externally
 {: #external-share_api}
 
 Share an API with users who cannot access your {{site.data.keyword.cloud_notm}} organization or your Cloud Foundry organization:
@@ -113,7 +115,7 @@ You can create up to five API keys for each API.
 
 2. On the "Managed APIs" page, click the name of the API that you want to share.
 
-3. In the navigation list, click **Sharing and Keys**. 
+3. In the navigation list, click **Manage sharing and keys**. 
 
 4. On the "Sharing and Keys" page, verify that the API is online so that it can be shared.
 
@@ -138,6 +140,6 @@ You can create up to five API keys for each API.
 
    The new API key and a corresponding "API Documentation Link" display. 
 
-6. Copy the API Documentation Link and send it to the external user. 
+6. Copy the API Documentation link and send it to the external user. 
 
    The link opens the API Explorer for the API so that the external user can review the API definition and test the API.
