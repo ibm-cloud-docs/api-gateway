@@ -31,6 +31,9 @@ Create a custom domain and map it to the default {{site.data.keyword.cloud_notm}
 
 Using a custom domain (sometimes called a vanity domain) enables you to present an API with your own branding. By default, an API or API proxy created in {{site.data.keyword.apigw_short}} or Legacy {{site.data.keyword.apigw_short}} uses an endpoint with the {{site.data.keyword.cloud_notm}} domain. You can configure the API to use a custom domain in the endpoint URL, so that API requests are directed to your own domain.
 
+For instructions on using a custom domain with {{site.data.keyword.ibmcf_full}}, see [Adding and using a custom domain](/docs/cloud-foundry-public?topic=cloud-foundry-public-custom-domains) in the {{site.data.keyword.ibmcf_notm}} documentation.
+{: note}
+
 If you host your app in multiple {{site.data.keyword.cloud_notm}} regions, you can customize the domain in each region.
 
 Configuring the custom domain for the API endpoint involves two tasks:
