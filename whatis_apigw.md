@@ -88,4 +88,4 @@ Table 1 summarizes the feature differences between {{site.data.keyword.apigw_sho
 | Number of calls | 1 million calls per month. After your block of free calls is exhausted, API traffic might be throttled on an as-needed basis. Traffic restrictions will be based on overall system usage and performance. Until paid plans become available for API Gateway, throttling will implemented only as needed to prevent performance degradation| Unlimited. |
 | Provisioning | Provision your single service instance before use or when you create your first API. |Always available. You do not need to provision your own service. |
 | Expiration | Service instance expires after 30 days of inactivity. | No expiration |
-{: caption="Table 1. Differences between {{site.data.keyword.apigw_short}} service and Legacy {{site.data.keyword.apigw_short}}" caption-side="top"}
+{: caption="Table 1. Comparing {{site.data.keyword.apigw_short}} service and Legacy {{site.data.keyword.apigw_short}}" caption-side="top"}
