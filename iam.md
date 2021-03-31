@@ -79,15 +79,15 @@ Table 3 details actions that are mapped to service access roles. Service access 
 | Manager             | View an API definition. Create, edit, delete an API. Enable or disable an API. Create, delete, or alter subscriptions attached to an API. | 
 {: caption="Table 3. IAM service access roles and actions" caption-side="top"}
 
-For information about assigning user roles in the UI, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
+For information about assigning user roles in the UI, see [Managing access to resources](/docs/account?topic=iam-iammanidaccser#iammanidaccser).
 
 
 ## Obtaining an {{site.data.keyword.cloud_notm}} API key and token
 {: #apikey_obtain-iam}
 
-For information on obtaining an API key from {{site.data.keyword.cloud_notm}}, see [Creating an API key](/docs/iam?topic=iam-userapikey#create_user_key) and [Creating an API key for a service ID](/docs/iam?topic=iam-serviceidapikeys#create_service_key).
+For information on obtaining an API key from {{site.data.keyword.cloud_notm}}, see [Creating an API key](/docs/account?topic=iam-userapikey#create_user_key) and [Creating an API key for a service ID](/docs/account?topic=iam-serviceidapikeys#create_service_key).
 
-For information on exchanging an API key for an {{site.data.keyword.cloud_notm}} token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/iam?topic=iam-iamtoken_from_apikey). For information on passing the token to an {{site.data.keyword.cloud_notm}} service, see [Passing an {{site.data.keyword.cloud_notm}} IAM token to authenticate with a service's API](/docs/iam?topic=iam-iamapikeysforservices#token_auth).
+For information on exchanging an API key for an {{site.data.keyword.cloud_notm}} token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=iam-iamtoken_from_apikey). For information on passing the token to an {{site.data.keyword.cloud_notm}} service, see [Passing an {{site.data.keyword.cloud_notm}} IAM token to authenticate with a service's API](/docs/account?topic=iam-iamapikeysforservices#token_auth).
 
 ### API key best practices
 {: #apikey_practices-iam}
