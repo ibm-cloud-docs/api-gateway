@@ -50,7 +50,7 @@ CORS is a mechanism that uses HTTP headers to allow an app to retrieve data from
 ### API analytics
 {: #whatis_apigw-analytics}
 
-{{site.data.keyword.apigw_short}} uses the {{site.data.keyword.cloud_notm}} LogDNA service to store and display information that is generated during API invocations. You can use the analytics feature to track call usage. You can also monitor usage to understand how your APIs are being used so that you can make informed decisions about how to update your APIs to increase adoption. 
+{{site.data.keyword.apigw_short}} uses the {{site.data.keyword.cloud_notm}} service to store and display information that is generated during API invocations. You can use the analytics feature to track call usage. You can also monitor usage to understand how your APIs are being used so that you can make informed decisions about how to update your APIs to increase adoption. 
 
 You can view the following statistics about your APIs:
 * The number of responses and average response time in the last hour, or your specified time interval.
