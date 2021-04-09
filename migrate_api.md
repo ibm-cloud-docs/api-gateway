@@ -19,7 +19,7 @@ subcollection: api-gateway
 {:note: .note}
 
 # Migrating a managed API to the {{site.data.keyword.apigw_short}} service
-{: #migrate_api}
+{: #migrate_api}  
 
 Optionally migrate your existing API proxies and Cloud Functions APIs to the {{site.data.keyword.apigw_short}} service so they can be secured with resource groups.
 {: shortdesc}
