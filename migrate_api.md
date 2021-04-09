@@ -115,4 +115,4 @@ A message displays to confirm the import.
   
 ![Import confirmation message for a {{site.data.keyword.openwhisk_short}} API](images/imsg_import_conf.png "Import confirmation message")
 
-The imported definition keeps all of the settings from the original API.
+The imported definition keeps all of the settings from the original API.  
