@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-08-07"
+  years: 2018, 2021
+lastupdated: "2021-07-13"
 
 keywords: IBM, activity tracker, event, security, API Gateway, audit logs, viewing events
 
@@ -47,6 +47,8 @@ Table 1 describes the actions that the {{site.data.keyword.apigw_short}} service
 | api-gateway.domain.unbind       | A custom domain is unbound/removed from an instance. | 
 {: caption="Table 1. Actions that generate events" caption-side="top"}
 
+The API invocation is not logged to Activity Tracker, only the events shown in Table 1.
+{: note}
 
 ## Viewing events
 {: #at_events-ui}
